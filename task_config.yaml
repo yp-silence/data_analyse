@@ -1,0 +1,24 @@
+# 异步调度任务
+scheduler_config:
+  sync_utils:
+    - 'cron'
+    - '*/1 * * * 3'
+    - 'hello'
+#  interval_utils:
+#    # self, weeks=0, days=0, hours=0, minutes=0, seconds=0, start_date=None, end_date=None
+#    - 'interval'
+#    - {'minutes': 2}
+#    - 'test_interval'
+  app_doc_recommend:
+    - 'cron'
+    - '30 13 * * 4'
+    - 'run'
+  online_order_report:
+    - 'cron'
+    - '30 13 1 * *'
+    - 'run'
+  order_report:
+    - 'cron'
+    - '30 13 1 * *'
+    - 'run'
+

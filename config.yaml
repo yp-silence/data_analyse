@@ -1,0 +1,27 @@
+# 数据库配置 目前已经废弃
+db_config:
+  user: yangping
+  password: -r2C{D1hH4irn
+  host: 182.254.217.127
+  database:
+  port: 36033
+
+# 邮件配置
+mail_config:
+  host: smtp.exmail.qq.com
+  port: 465
+  user: alarm@i2o.pw
+  password: rixsyw-sopxo2-bedniG
+  to : 'jing.huang@linjiahy.com,bin.liu@linjiahy.com'
+md_config:
+  'user': 'root'
+  'password': 'hoNGbX0Q5G'
+  'host': '49.235.244.137'
+  'database':
+  'port': 3306
+test_config:
+  'user': 'lljhyadmin'
+  'password': 'ljhy6284!fmysqlke23Wtkj88'
+  'host': '10n0m1gr7lo.mysql.rds.aliyuncs.com'
+  'database':
+  'port': 3306

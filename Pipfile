@@ -1,0 +1,21 @@
+[[source]]
+url = "http://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+pymysql = "*"
+pyyaml = "*"
+emoji = "*"
+openpyxl = "*"
+apscheduler = "*"
+xlsxwriter = "*"
+sqlalchemy = "*"
+click = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
